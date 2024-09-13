@@ -1,6 +1,7 @@
 // ignore_for_file: unused_local_variable
 import 'package:flutter/material.dart';
 import 'package:online_flutter/pages/homepage.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,17 +28,16 @@ class MyApp extends StatelessWidget {
       // home: Homepage(),
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData(
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
         // primarySwatch: Colors.red,
+        fontFamily: GoogleFonts.lato().fontFamily,
       ),
+
+      // initialRoute: "/home",
 
       routes: {
       "/": (context) => Homepage(),
-      "/login" : (context) => loginpage()
-    
-
-      
-
+      // "/login" : (context) => loginpage()
       },
     );
   }
