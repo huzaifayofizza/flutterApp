@@ -20,6 +20,10 @@ class MyApp extends StatelessWidget {
     // const pl = 3.14;
     // final pu = 3.14;
 
+    // var day = "Thuesday";
+    // const pl = 3.14;
+    // final pu = 3.14;
+
 
 
     return MaterialApp(
